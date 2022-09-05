@@ -1,0 +1,11 @@
+header {
+  position: static;
+  top: -100%;
+
+  &.js_active {
+    position: sticky;
+    top: 0;
+
+    transition-duration: 1s;
+  }
+}

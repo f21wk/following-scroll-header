@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: rgb(251, 255, 8);
+
+  h1 {
+    grid-column: 2 / span 1;
+  }
+
+  .gnav {
+    grid-column: 4 / span 2;
+
+    ul {
+      display: flex;
+      gap: 1rem;
+
+      list-style: none;
+    }
+  }
+}
+
+section {
+  display: grid;
+  place-items: center;
+
+  height: 50vh;
+  background: hsl(180, 100%, 95%);
+
+  &:nth-child(odd) {
+    background: hsl(0, 100%, 95%);
+  }
+}

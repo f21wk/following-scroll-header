@@ -3,16 +3,13 @@
 - スクロールすると上からヘッダーが表示されるスクリプトです。
 - JavaScript と CSS で実装しています。
 
----
-
 ## サンプル
 
-`src`フォルダにある`index.html`を実行してください。
+`dist`フォルダにある`index.html`を実行してください。
 
 500px スクロールすると上からヘッダーが上部に張り付いてスクロールに追従します。
 
 ![サンプルGif動画](https://raw.githubusercontent.com/wiki/f21wk/FollowingScrollHeader/sample.gif)
----
 
 ## 使い方
 
@@ -43,8 +40,6 @@
 ### 4. `HTML`ファイルを実行してください。
 
 500px までスクロールしてから上からヘッダーが追従するようになります。
-
----
 
 <div style="page-break-before:always"></div>
 

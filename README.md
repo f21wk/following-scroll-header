@@ -11,6 +11,7 @@
 
 500px スクロールすると上からヘッダーが上部に張り付いてスクロールに追従します。
 
+![サンプルGif動画](https://raw.githubusercontent.com/wiki/f21wk/FollowingScrollHeader/sample.gif)
 ---
 
 ## 使い方
